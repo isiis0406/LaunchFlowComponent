@@ -1,0 +1,4 @@
+.THIS .scrollableContainer {
+    overflow-y: auto; /* Permet le défilement vertical si le contenu est plus grand que le conteneur */
+    max-height: 500px; /* ou une autre valeur en fonction de la taille souhaitée */
+}
