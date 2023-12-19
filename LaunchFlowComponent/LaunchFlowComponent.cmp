@@ -3,6 +3,6 @@
     access="global">
     <aura:handler name="init" value="{!this}" action="{!c.init}" />
     <div class="scrollableContainer">
-        <lightning:flow aura:id="flowData" />
+        <lightning:flow aura:id="flowData" onstatuschange="{!c.handleFlowStatusChange}" />
     </div>
 </aura:component>
